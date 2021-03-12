@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp">
+
+        <ImageView
+            android:id="@+id/account_iv"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@color/gray" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="8dp"
+            android:gravity="center_vertical"
+            android:layout_toEndOf="@id/account_iv">
+
+            <TextView
+                android:id="@+id/review_account_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:textColor="@android:color/black"
+                tools:text="account" />
+
+            <TextView
+                android:id="@+id/review_account_username_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:textColor="@android:color/black"
+                tools:text="username" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/trailer_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+        android:textColor="@color/gray"
+        android:textStyle="bold"
+        tools:text="commentlskdjflksdjflksdjflksdjfsdfcommentlskdjflksdjflksdjflksdjfsdfcommentlskdjflksdjflksdjflksdjfsdfcommentlskdjflksdjflksdjflksdjfsdfcommentlskdjflksdjflksdjflksdjfsdfcommentlskdjflksdjflksdjflksdjfsdfcommentlskdjflksdjflksdjflksdjfsdf" />
+
+</LinearLayout>
+
+
